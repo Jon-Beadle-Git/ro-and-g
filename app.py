@@ -16,7 +16,8 @@ if text:
 	for letter in text:
 		new_text += letter.upper()
 	print (f"""Here's your name in UPPER CASE: {new_text}""")
-	print (fam_dict[text])
+
+print (fam_dict[text])
 
 
 	
