@@ -6,7 +6,7 @@ st.write("Paste text here for diagnosis")
 
 text = st.text_area ("Your text", height =200)
 
-if text:
+if text in fam_dict:
       
 	fam_dict = {"Jon": "brilliant", "Will": "foolish wood-maker", "Cath": "kitchen perfectionista", "Em": "too many outbuildings", "Dave": "only lifts 5kg dumbbells"}
 	    
