@@ -1,5 +1,16 @@
 import streamlit as st
 
+st.markdown(
+	"""
+	<style>
+	.stApp {
+		background-color: #f6f0ff;
+	}
+	</style>
+	""",
+	unsafe_allow_html=True
+)
+
 st.title("Tell Ro and Grampy Your Name")
 #st.write("Paste text here for diagnosis")
 
