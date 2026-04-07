@@ -22,6 +22,8 @@ if text in fam_dict:
 	st.subheader("What do they think of you?")
 	st.write (fam_dict[text])
 
+else:
 
+	st.write("Don't know you")
 	
 
