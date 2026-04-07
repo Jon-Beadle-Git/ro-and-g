@@ -8,7 +8,7 @@ text = st.text_area ("Your text", height =200)
 
 if text:
       
-	fam_dict = {"Jon": "brilliant", "Will": "foolish wood-maker", "Cath": "kitchen perfectionista", "Em": "too many outbuildings"}
+	fam_dict = {"Jon": "brilliant", "Will": "foolish wood-maker", "Cath": "kitchen perfectionista", "Em": "too many outbuildings", "Dave": "only lifts 5kg dumbbells"}
 	    
 	st.subheader("How Much Do You Love Ro and Grampy")
 	st.write(f"**{text}** loves Ro and Grampy very much")
