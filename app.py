@@ -14,9 +14,9 @@ if text:
 	st.write(f"**{text}** loves Ro and Grampy very much")
 	new_text = ""
 	
-	#for letter in text:
-	#	new_text += letter.upper()
-	#print (f"""Here's your name in UPPER CASE: {new_text}""")
+	for letter in text:
+		new_text += letter.upper()
+	st.write (f"""Here's your name in UPPER CASE: {new_text}""")
 	st.subheader("What do they think of you?")
 	st.write (fam_dict[text])
 
